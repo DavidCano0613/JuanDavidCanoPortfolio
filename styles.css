@@ -1,0 +1,65 @@
+:root {
+    --Dark-Violet: hsl(256, 26%, 20%);
+    --Grayish-Blue: hsl(216, 30%, 68%);
+    --Very-Dark-Violet: hsl(270, 9%, 17%);
+    --Dark-Grayish-Violet: hsl(273, 4%, 51%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+    --font1: 'DM Serif Display', serif;
+    --font2: 'Karla', sans-serif;
+    --padding-container:30px 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 90%;
+    overflow: hidden;
+    padding: var(--padding-container);
+}
+
+* {
+    font-family: var(--font2);
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--font1);
+}
+
+
+a {
+    text-decoration:none;
+}
+
+
+.hero{
+
+}
+
+.hero__logo{
+
+}
+
+.hero__nav {
+    display:flex;
+    justify-content:space-between;
+}
+
+.hero__cta {
+
+}
+
+.nav__hamburguer {
+    display: none;
+}
+
+.nav__links {
+    display:flex;
+    justify-content:space-between;
+}
+
