@@ -1,7 +1,8 @@
 :root {
-    --Dark-Violet: hsl(256, 26%, 20%);
-    --Grayish-Blue: hsl(216, 30%, 68%);
-    --Very-Dark-Violet: hsl(270, 9%, 17%);
+    --Very-Light-Gray:#EBECEE;
+    --Very-Dark-Gray:#484849;
+    --Main-Yellow:#fcaf3b;
+    --Second-Yellow:#fcaf3b;
     --Dark-Grayish-Violet: hsl(273, 4%, 51%);
     --Very-Light-Gray: hsl(0, 0%, 98%);
     --font1: 'DM Serif Display', serif;

@@ -14,8 +14,10 @@ Que son capas, como se deberian hacer
 Que es autenticación y autorización 
 Que es la logica de negocios y casos de uso
 
-
-sources 
-https://www.youtube.com/watch?v=-LCv2gen93A&ab_channel=JaviNiguez
-https://www.youtube.com/watch?v=4Mqtj-FxXOo&ab_channel=JaviNiguez
-https://www.youtube.com/watch?v=qq8MHNPu4y4&ab_channel=ProgramadorX
+Sources
+https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5
+https://www.frontendmentor.io/challenges/art-gallery-website-yVdrZlxyA
+https://www.frontendmentor.io/challenges/equalizer-landing-page-7VJ4gp3DE
+https://www.frontendmentor.io/challenges/maker-prelaunch-landing-page-WVZIJtKLd
+https://brittanychiang.com/
+https://jacekjeznach.com/
