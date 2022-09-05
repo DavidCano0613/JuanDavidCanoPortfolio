@@ -1,8 +1,8 @@
 :root {
-    --Very-Light-Gray:#EBECEE;
-    --Very-Dark-Gray:#484849;
     --Main-Yellow:#fcaf3b;
     --Second-Yellow:#fcaf3b;
+    --Very-Light-Gray:#EBECEE;
+    --Very-Dark-Gray:#484849;
     --Dark-Grayish-Violet: hsl(273, 4%, 51%);
     --Very-Light-Gray: hsl(0, 0%, 98%);
     --font1: 'DM Serif Display', serif;
@@ -10,8 +10,9 @@
     --padding-container:30px 0;
 }
 
+
 * {
-    box-sizing: border-box;
+    box-sizing: border-box;   
 }
 
 .container {
@@ -32,7 +33,6 @@ h3 {
     font-family: var(--font1);
 }
 
-
 a {
     text-decoration:none;
 }
@@ -51,16 +51,122 @@ a {
     justify-content:space-between;
 }
 
-.hero__cta {
-
+.nav__links {
+    width: 40%;
+    display:flex;
+    justify-content:space-between;
 }
 
 .nav__hamburguer {
     display: none;
 }
 
-.nav__links {
-    display:flex;
-    justify-content:space-between;
+.hero__cta {
+    border:2px solid red
 }
 
+.introduction{
+    display: flex;
+}
+
+.introduction figure {
+    width: 20%;
+    height: 20vh;
+}
+
+.about__me{
+
+}
+.experience{
+
+}
+
+
+/* **********     DarkMode Styles     ********** */
+
+.dark{
+
+}
+
+/* **********     ContactForm Validations     ********** */
+.contact-form {
+    --form-ok-color: #4caf50;
+    --form-error-color: #f44336;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+  
+  .contact-form > * {
+    padding: 0.5rem;
+    margin: 1rem auto;
+    display: block;
+    width: 100%;
+  }
+  
+  .contact-form textarea {
+    resize: none;
+  }
+  
+  .contact-form legend,
+  .contact-form-response {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 1rem;
+    font-family: sans-serif;
+  }
+  
+  .contact-form input[type="submit"] {
+    width: 50%;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .contact-form *::placeholder {
+    color: #000;
+  }
+  
+  .contact-form [required]:valid {
+    border: thin solid var(--form-ok-color);
+  }
+  
+  .contact-form [required]:invalid {
+    border: thin solid var(--form-error-color);
+  }
+  
+  .contact-form-error {
+    margin-top: -1rem;
+    font-size: 80%;
+    background-color: var(--form-error-color);
+    color: #fff;
+    transition: all 800ms ease;
+  }
+  
+  .contact-form-error.is-active {
+    display: block;
+    animation: show-message 1s 1 normal 0s ease-out both;
+  }
+  
+  .none {
+    display: none;
+  }
+  
+  @keyframes show-message {
+    0% {
+      visibility: hidden;
+      opacity: 0;
+    }
+  
+    100% {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+  
+
+/* **********    Responsive Styles     ********** */

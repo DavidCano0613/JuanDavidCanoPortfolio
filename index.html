@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./normalize.css"/>
     <link rel="stylesheet" href="./styles.css" />
   </head>
 
@@ -20,6 +21,7 @@
         <div class="hero__logo">JuanDaDev</div>
         <div class="nav__links">
           <a href="">About</a>
+          <a href="">Experience</a>
           <a href="">Projects</a>
           <a href="">Contact</a>
         </div>
@@ -32,12 +34,12 @@
 
     <section class="introduction container">
       <div>
-        <p>Hi my name is</p>
+        <p>Hello, my name is</p>
         <h1>Juan David Paniagua Cano Web Developer</h1>
-        <p>Full-Stack developer in Medellín Colombia</p>
+        <p>Full-Stack developer</p>
       </div>
       <figure class="">
-        <img src="" alt="" />
+        <img src="./assets/1140-american-flag-myths-esp.jpg" alt="" />
       </figure>
     </section>
 
@@ -64,28 +66,64 @@
           also familiarized with MVC model. Furthermore i have some experience
           creating great front-end apps.
         </p>
-        <h3>Where I've worked</h3>
-        <p></p>
-      </article>
-      Technologies I'm proficient in
-      <div></div>
+    </article>
     </section>
-
+    
+    <section class="experience container">
+      <h3>Where I've worked</h3>
+      <article>
+        <h3>Technologies I'm proficient in</h3>
+        <img src="" alt="" class="lenguage_icon">
+        <img src="" alt="" class="lenguage_icon">
+        <img src="" alt="" class="lenguage_icon">
+        <img src="" alt="" class="lenguage_icon">
+        <img src="" alt="" class="lenguage_icon">
+        <img src="" alt="" class="lenguage_icon">
+      </article>
+    </section>
+   
+  
     <section class="portfolio container">
       <h2>Some things I've built</h2>
       <p>Take a look at projects I've worked on</p>
+      <article class="timeline">
+        <details class="timeline-panel">
+          <sumary>
+            <h2></h2>
+          </sumary>
+          <aside></aside>
+        </details>
+        <div class="timeline-icon"></div>
+      </article>
     </section>
 
     <section class="contact__me container">
-      <div>
         <h3>What's next ?</h3>
         <p>
           I'm currently open to wok. My inbox is open wheter you have a
           question, want to work with me or just say hi! I'll try my best to get
           back to you!
         </p>
-        <form action=""></form>
-      </div>
+        <form class="contact-form" action="" method="" target="">
+          <legend>Let's Get In Touch</legend>
+          <input type="text" name="name" placeholder="Escribe tu nombre"
+            title="Nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+          <input type="email" name="email" placeholder="Escribe tu email" title="Email incorrecto"
+            pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+          <input type="text" name="subject" placeholder="Asunto a tratar" title="El Asunto es requerido" required>
+          <textarea name="comments" rows="5" placeholder="Escribe tus comentarios"
+            title="Tu comentario no debe exceder los 255 caracteres" data-pattern="^.{1,255}$" required></textarea>
+          <input type="submit" value="Enviar">
+          <div class="contact-form-loader none">
+            <img src="../assets/three-dots.svg" alt="Cargando">
+          </div>
+          <div class="contact-form-response none">
+            <p>Los datos han sido enviados</p>
+          </div>
+        </form>
+        <div>
+
+        </div>
     </section>
 
     <footer></footer>
