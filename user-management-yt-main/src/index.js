@@ -6,10 +6,9 @@ import connectDB from "#Config/db.js";
 
 const boostrap = async () => {
   await connectDB(process.env.MONGODB_URL)
-  httpServer.listen(process.env.PORT,()=>{
+  httpServer.listen(process.env.PORT, () => {
     console.log("Servidor escuchando en el puerto 3000");
   });
-
 }
 
-boostrap()
+boostrap();
