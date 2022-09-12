@@ -29,5 +29,3 @@ const userModel = model("User",userSchema);
 export default userModel; 
 
 
-
-// nunca guardar las contraseñas de los usuarios en texto plano, siempre un hash. 

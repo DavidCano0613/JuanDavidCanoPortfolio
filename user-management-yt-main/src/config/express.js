@@ -5,7 +5,7 @@ import express from 'express';
 const expressApp = express();
 
 // Middelewares
-expressApp.use(express.json())
+expressApp.use(express.json()); 
 
 // Routes
 expressApp.use('/user',userRouter);
